@@ -68,10 +68,10 @@ git config --global  --list
 # 파일 생성
 touch Day1.md
 
-# 파일 저장
+# 파일 저장 **필수**
 ctrl + s
 
-# stage에 올리기
+# stage에 올리기 
 git add Day1.md (또는 git add .)
 
 # commit 남기기
@@ -85,9 +85,17 @@ git push origin master
 
 2. **gitignore**
 
-- 
+- Git이 버전 관리를 하지 못하도록 지정하는 것
+- 로컬 저장소에 .gitignore 파일을 만듦 
 
-[gitignore 코드 사이트](https://www.toptal.com/developers/gitignore)
+```bash
+touch .gitignore
+```
+
+- 만들어진 txt파일에 원하지 않는 파일/폴더를 내용으로 저장 
+  - `a.txt`
+- 자신의 개발환경에 맞는 코드 복사해서 .gitignore에 붙여넣기 
+  - [gitignore 코드 사이트](https://www.toptal.com/developers/gitignore)
 
 
 
