@@ -124,4 +124,9 @@ ctrl + l
 
 ---
 
-[Git&GitHub 특강 노션](https://hphk.notion.site/hphk/Git-5-_E-22-02-23-22-02-25-1b97e73779554044b56f15cd57693e9a)
+- [Git&GitHub 특강 노션](https://hphk.notion.site/hphk/Git-5-_E-22-02-23-22-02-25-1b97e73779554044b56f15cd57693e9a)
+
+- Visual Studio로 열기
+  - 해당 디렉토리 내에서 오른쪽 마우스 - code로 열기
+  - VS에서 VIM(terminal)열기: ctrl + `
+
