@@ -28,7 +28,7 @@ print(df.head())
 print(df.tail())
 ```
 
-![image-20220302100828771](Day15.assets/image-20220302100828771-16461833597781.png)
+![image-20220302174634741](Day15.assets/image-20220302174634741.png)
 
 
 
@@ -53,7 +53,7 @@ print(df.shape)
 print(df.info())
 ```
 
-![image-20220302101050843](Day15.assets/image-20220302101050843.png)
+![image-20220302174648242](Day15.assets/image-20220302174648242.png)
 
 - 판다스 자료형
     - int64: 정수형 데이터
@@ -84,7 +84,7 @@ print(df.describe())
 print(df.describe(include = 'all'))
 ```
 
-![image-20220302113834335](Day15.assets/image-20220302113834335.png)
+![image-20220302174659466](Day15.assets/image-20220302174659466.png)
 
 
 
@@ -184,7 +184,7 @@ print(df.corr())
 print(df[['mpg', 'weight']].corr())
 ```
 
-![image-20220302115158631](Day15.assets/image-20220302115158631.png)
+![image-20220302174717984](Day15.assets/image-20220302174717984.png)
 
 - 상관계수 절대값의 크기는 직선관계와 가까운 정도를 표현, 부호는 직선관계의 방향을 나타냄
   - r > 0 : 양의 상관관계, 산점도에서 점들이 우상향방향으로 띠를 형성(기울기 양수)
@@ -232,7 +232,7 @@ print(tdf_ns.head())
 print(tdf_ns.plot())
 ```
 
-![image-20220302133953414](Day15.assets/image-20220302133953414.png)
+![image-20220302174730386](Day15.assets/image-20220302174730386.png)
 
 
 
@@ -244,7 +244,7 @@ print(tdf_ns.plot())
 print(tdf_ns.plot(kind = 'bar'))
 ```
 
-![image-20220302134016322](Day15.assets/image-20220302134016322.png)
+![image-20220302174740939](Day15.assets/image-20220302174740939.png)
 
 
 
@@ -257,7 +257,7 @@ print(tdf_ns.plot(kind = 'bar'))
 print(tdf_ns.plot(kind = 'hist'))
 ```
 
-![image-20220302134245075](Day15.assets/image-20220302134245075.png)
+![image-20220302174746856](Day15.assets/image-20220302174746856.png)
 
 
 
@@ -269,8 +269,8 @@ print(tdf_ns.plot(kind = 'hist'))
 
  	1. plot()함수에 kind = 'scatter' 옵션 추가
  	2. 데이터프레임 열 중에서 서로 비교할 두 변수 선택
-     - x축에 차량 무게 'weight'열을 지정
-     - y축에 연비 'mpg'열을 지정
+ 	 - x축에 차량 무게 'weight'열을 지정
+ 	 - y축에 연비 'mpg'열을 지정
 
 ```python
 import pandas as pd
@@ -286,7 +286,7 @@ df.columns = ['mpg', 'cylinders', 'displacement', 'horsepower', 'weight',
 print(df.plot(x = 'weight', y = 'mpg', kind = 'scatter'))
 ```
 
-![image-20220302135110805](Day15.assets/image-20220302135110805.png)
+![image-20220302174752234](Day15.assets/image-20220302174752234.png)
 
 
 
@@ -303,7 +303,7 @@ print(df.plot(x = 'weight', y = 'mpg', kind = 'scatter'))
 print(df[['mpg', 'cylinders']].plot(kind = 'box'))
 ```
 
-![image-20220302140649771](Day15.assets/image-20220302140649771.png)
+![image-20220302174757188](Day15.assets/image-20220302174757188.png)
 
 - 그래프 해석
   - 맨 위의 원: 수치에서 벗어난 값
@@ -441,3 +441,5 @@ plt.show
 
   - 글씨를 회전하기 위해 사용한 rotation = 'vertical' 대신 각도를 나타내는 숫자로 표현할 수 있음. 
   - ex) rotation = 90 -> 반시계 방향으로 90도 회전 
+
+![image-20220302174832305](Day15.assets/image-20220302174832305.png)
