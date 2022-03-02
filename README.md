@@ -16,9 +16,8 @@
 
 ## 1. Git
 
-
+- [Git과 markdown 기초](Day01.md)
+- [Github 버전 관리](Day02.md)
+- [Branch와 Workflow](Day03.md)
 
 ## 2. Python
-
-
-
