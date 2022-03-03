@@ -60,7 +60,7 @@ plt.annotate('인구이동 감소(1995-2017)',  # 텍스트 입력
             )
 ```
 
-![image-20220303114024803](Day16.assets/image-20220303114024803.png)
+![image](https://user-images.githubusercontent.com/100326309/156531192-c082af00-946a-44e7-a69c-79ac1907e647.png)
 
 
 
@@ -112,7 +112,7 @@ ax2.legend(loc = 'best') # 범례 위치
 plot.show()
 ```
 
-![image-20220303114050088](Day16.assets/image-20220303114050088.png)
+![image](https://user-images.githubusercontent.com/100326309/156531261-b36c814f-9984-41a2-8696-da452f37ad8d.png)
 
 
 
@@ -140,7 +140,7 @@ ax.tick_params(axis = "x", labelsize = 10)
 ax.tick_params(axis = "y", labelsize = 10)
 ```
 
-![image-20220303114231073](Day16.assets/image-20220303114231073.png)
+![image](https://user-images.githubusercontent.com/100326309/156531289-3a146fdd-dc79-4fd3-9e0e-a7e6ccc9bb46.png)
 
 
 
@@ -219,7 +219,7 @@ ax.tick_params(axis="y", labelsize=10)
 plt.show()
 ```
 
-![image-20220303134906654](Day16.assets/image-20220303134906654.png)
+![image](https://user-images.githubusercontent.com/100326309/156531319-45b2cb79-206b-431f-969c-61b1e231259a.png)
 
 
 
@@ -306,7 +306,7 @@ fig.tight_layout()
 plt.show()
 ```
 
-![image-20220303135456668](Day16.assets/image-20220303135456668.png)
+![image](https://user-images.githubusercontent.com/100326309/156531353-d853da8f-cd9d-480d-a4fd-2f56357ece4e.png)
 
 
 
@@ -405,7 +405,7 @@ plt.legend(loc = 'best', fontsize = 15)
 plt.show()
 ```
 
-![image-20220303144912130](Day16.assets/image-20220303144912130.png)
+![image](https://user-images.githubusercontent.com/100326309/156531399-85bddd4a-64e5-4e97-bead-e8002019b8ce.png)
 
 
 
@@ -425,7 +425,7 @@ df_4.plot(kind = 'barh', figsize = (20,10), width = 0.7,
          color = ['orange', 'green', 'red', 'blue'])
 ```
 
-![image-20220303153737417](Day16.assets/image-20220303153737417.png)
+![image](https://user-images.githubusercontent.com/100326309/156531427-9b044ea8-f76e-4e3b-ac4d-62f02296f3ce.png)
 
 ```python
 # 합계 그래프 그리기 (가로형)
@@ -440,7 +440,7 @@ df_total.plot(kind = 'barh', figsize = (10, 3), width = 0.5,
          color = ['skyblue'])
 ```
 
-![image-20220303153649138](Day16.assets/image-20220303153649138.png)
+![image](https://user-images.githubusercontent.com/100326309/156531468-00e8b964-66c6-48f9-a5f9-3938867cdbca.png)
 
 
 
@@ -475,7 +475,7 @@ plt.xlabel('mpg')
 plt.show()
 ```
 
-![image-20220303174909747](Day16.assets/image-20220303174909747.png)
+![image](https://user-images.githubusercontent.com/100326309/156531498-18f9a088-f914-48fe-9131-1a8ab49324c2.png)
 
 
 
@@ -493,7 +493,7 @@ plt.title('Scatter Plot - mpg vs weight')
 plt.show()
 ```
 
-![image-20220303174831948](Day16.assets/image-20220303174831948.png)
+![image](https://user-images.githubusercontent.com/100326309/156531534-71ab9e6e-799b-48cf-9589-854e57049343.png)
 
 - 산점도에서 새로운 변수를 추가하여 점의 크기 또는 색상으로 표현 가능
   - 새로운 변수로 실린더 개수('cylinders'열) 추가
@@ -519,9 +519,9 @@ df.plot(kind='scatter', x='weight', y='mpg', marker='+', c=cylinders_size,
 plt.title('Scatter Plot - mpg vs weight')
 ```
 
-![image-20220303174755126](Day16.assets/image-20220303174755126.png)
+![image](https://user-images.githubusercontent.com/100326309/156531558-91df5f68-217b-4165-9716-48fca605a6e1.png)
 
-![image-20220303174808461](Day16.assets/image-20220303174808461.png)
+![image](https://user-images.githubusercontent.com/100326309/156531590-d41fff4a-d1fe-49d9-a06b-a83a294d3869.png)
 
 
 
@@ -562,7 +562,7 @@ plt.legend(labels=df_origin.index, loc='upper right')
 plt.show()
 ```
 
-![image-20220303174717115](Day16.assets/image-20220303174717115.png)
+![image](https://user-images.githubusercontent.com/100326309/156531612-a7ddbf21-7379-4501-bae2-c662eaa2c1c4.png)
 
 
 
@@ -600,7 +600,7 @@ ax2.boxplot(x=[df[df['origin']==1]['mpg'],
 plt.show()          
 ```
 
-![image-20220303175011005](Day16.assets/image-20220303175011005.png)
+![image](https://user-images.githubusercontent.com/100326309/156531628-d4f4ea09-92aa-42cb-b974-3eeb2a279856.png)
 
 
 
