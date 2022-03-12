@@ -38,9 +38,10 @@
 - Matplotlib
 
   - [Matplotlib 소개](Day15.md#Matplotlib)
-- [기본 선 그래프](Day15.md#1-선-그래프-1)
+  - [기본 선 그래프](Day15.md#1-선-그래프-1)
+  
   - [그래프 심화: 주석, axe, 색상](Day16.md#Matplotlib-그래프-심화)
-- [다양한 그래프](Day16.md#면적-그래프-area-plot)
+  - [다양한 그래프](Day16.md#면적-그래프-area-plot)
 
 
 
