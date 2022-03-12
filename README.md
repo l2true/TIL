@@ -37,11 +37,10 @@
 
 - Matplotlib
 
-  - [Matplotlib 소개, 기본 선 그래프](Day15.md#Matplotlib)
-
+  - [Matplotlib 소개](Day15.md#Matplotlib)
+- [기본 선 그래프](Day15.md#1-선-그래프-1)
   - [그래프 심화: 주석, axe, 색상](Day16.md#Matplotlib-그래프-심화)
-
-  - [다양한 그래프](Day16.md#면적-그래프-area-plot)
+- [다양한 그래프](Day16.md#면적-그래프-area-plot)
 
 
 
@@ -55,9 +54,9 @@
 
 - [미분](220308.md)
 
-- 선형대수학
+- [선형대수학](220310.md)
 
-  - [Scalar, Vector](220309.md)
+  - [Scalar, Vector](220309.md#2-스칼라--벡터--행렬--텐서)
 
   - [Matrix](220310.md)
 
