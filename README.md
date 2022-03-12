@@ -22,6 +22,6 @@
 
 ## 2. Python
 
-- [Pandas - DataFrame](Day15.md #데이터프레임의-구조)
-- [Pandas - 내장 그래프](Day15.md #판다스-내장-그래프-도구-활용)
+- [Pandas - DataFrame](Day15.md#데이터프레임의-구조)
+- [Pandas - 내장 그래프](Day15.md#판다스-내장-그래프-도구-활용)
 
