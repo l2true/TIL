@@ -43,6 +43,22 @@
   - [그래프 심화: 주석, axe, 색상](Day16.md#Matplotlib-그래프-심화)
   - [다양한 그래프](Day16.md#면적-그래프-area-plot)
 
+- ProDS
+
+  - [표본추출](220311.md#표본-추출)
+  - [데이터전처리: 결측치, 이상치](220311.md#데이터-전처리)
+
+- Algorithm
+
+  - [표준 입출력](220314.md#3-표준-입출력)
+
+  - [Baby-jin Game](220315.md#1-baby-jin-game)
+  - [Matrix](220316.md#2차원-리스트)
+  - [BOJ 10988: Palindrome인지 확인하기](220315.md#2-palindrome-회문)
+  - [BOJ 2789: 유학금지](220316.md#3-유학금지-boj2789)
+  - [BOJ 2941: 크로아티아 알파벳](220316.md#4-크로아티아-알파벳-boj2941)
+  - [BOJ 1789: 수들의 합](220324.md#boj-1789-수들의-합)
+
 
 
 ## 3. Mathematics for Machine Learning
